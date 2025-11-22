@@ -1,0 +1,84 @@
+/* Basic reset */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: "Poppins", Arial, sans-serif; }
+
+/* Page layout */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f7fb;
+  padding: 2rem;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+/* Card / form */
+.card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(18, 33, 75, 0.06);
+  display: grid;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+/* Label */
+label {
+  text-align: left;
+  display: block;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+.input:focus { box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.08); }
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn:hover { opacity: 0.95; }
+
+/* Result */
+.result {
+  min-height: 1.5em;
+  margin-top: 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Note text */
+.note {
+  margin-top: 0.8rem;
+  color: #556074;
+  font-size: 0.9rem;
+}
