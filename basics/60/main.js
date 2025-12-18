@@ -10,7 +10,7 @@ console.log(city_name("Los Angeles"));  // Los Angeles
 console.log(city_name("London"));       // ""
 
 
-//
+//second type
 function city_name(str) {
   if (
       str.length >= 3 &&
