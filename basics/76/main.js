@@ -15,4 +15,4 @@ function addDigits(num) {
 
 console.log(addDigits(12)); // 3
 console.log(addDigits(45)); // 9
-console.log(addDigits(98)); // 17
+
